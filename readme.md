@@ -56,7 +56,9 @@ react-native link react-native-unionpay-control
 
 - AppDelegate.m 的 下面 @end 前面添加下面代码
 
-```m
+```
+#import <React/RCTLinkingManager.h>
+
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
   return [RCTLinkingManager application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
