@@ -3,7 +3,9 @@
 ###本组件基于react-natve 最新版本 0.52  其他版本请自行测试
 
 ```
-yarn add  react-native-unionpay-control --save  or   npm install react-native-unionpay-control --save
+yarn add  react-native-unionpay-control
+
+npm install react-native-unionpay-control --save
 
 react-native link react-native-unionpay-control
 ```
