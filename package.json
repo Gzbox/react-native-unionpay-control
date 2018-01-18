@@ -1,6 +1,6 @@
 {
   "name": "react-native-unionpay-control",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "China UnionPay react-native components supporting IOS and Android",
   "main": "index.js",
   "scripts": {
