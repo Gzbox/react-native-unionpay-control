@@ -1,4 +1,4 @@
-# react-native银联插件
+# react-native银联手机控件支付
 
 ## 安装
 
