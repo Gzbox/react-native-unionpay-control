@@ -11,35 +11,18 @@
     "email": "uyson@qq.com"
   },
   "files": [
-	  "ios",
-	  "android",
-	  "index.js"
+    "ios",
+    "android",
+    "index.js"
   ],
   "keywords": [
     "unionpay",
     "react-native-unionpay",
     "otkurbiz"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react-native": ">=0.35"
   },
-  "homepage": "https://github.com/OtkurBiz/react-native-unionpay",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OtkurBiz/react-native-unionpay.git"
-  },
-  "license": "MIT",
-  "rnpm": {
-    "android": {
-    },
-    "ios": {
-      "sharedLibraries": [
-        "CFNetwork.framework",
-        "SystemConfiguration.framework",
-        "libz"
-      ]
-    }
-  }
+  "homepage": "https://github.com/Gzbox/react-native-unionpay-control#readme"
 }
