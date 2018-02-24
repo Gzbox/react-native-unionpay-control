@@ -73,7 +73,7 @@ public class UnionpayModule extends ReactContextBaseJavaModule implements Activi
         WritableMap params = Arguments.createMap();
         params.putString("code", str.toLowerCase());
         if (str.equalsIgnoreCase("success")) {
-            // TODO: 10/25/16
+            // TODO: 1/25/18
             // 支付成功后，extra中如果存在result_data，取出校验
             // result_data结构见c）result_data参数说明
             if (data.hasExtra("result_data")) {
@@ -92,9 +92,9 @@ public class UnionpayModule extends ReactContextBaseJavaModule implements Activi
             }
 
         } else if (str.equalsIgnoreCase("fail")) {
-            // TODO: 10/25/16
+            // TODO: 1/25/18
         } else if (str.equalsIgnoreCase("cancel")) {
-            // TODO: 10/25/16
+            // TODO: 1/25/18
         }
         if (str.equalsIgnoreCase("success") || str.equalsIgnoreCase("fail") || str.equalsIgnoreCase("cancel")) {
             getReactApplicationContext().getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)

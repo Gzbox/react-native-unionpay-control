@@ -2,8 +2,8 @@
 //  RCTUnionpay.m
 //  RCTUnionpay
 //
-//  Created by Alim on 10/25/16.
-//  Copyright © 2016 Alim. All rights reserved.
+//  Created by dingzhen on 1/25/18.
+//  Copyright © 2016 dingzhen. All rights reserved.
 //
 
 #import "RCTUnionpay.h"
