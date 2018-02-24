@@ -1,25 +1,45 @@
 {
-  "name": "react-native-unionpay-control",
-  "version": "0.6.1",
-  "description": "China UnionPay react-native components supporting IOS and Android",
+  "name": "react-native-unionpay",
+  "version": "1.0.3",
+  "description": "react-native unionpay plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": {
+    "name": "Alim Kirem",
+    "email": "uyson@qq.com"
+  },
+  "files": [
+	  "ios",
+	  "android",
+	  "index.js"
+  ],
+  "keywords": [
+    "unionpay",
+    "react-native-unionpay",
+    "otkurbiz"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react-native": ">=0.35"
+  },
+  "homepage": "https://github.com/OtkurBiz/react-native-unionpay",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gzbox/react-native-unionpay-control.git"
+    "url": "git+https://github.com/OtkurBiz/react-native-unionpay.git"
   },
-  "keywords": [
-    "React-native",
-    "UnionPay",
-    "IOS",
-    "Android"
-  ],
-  "author": "dingzhen",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Gzbox/react-native-unionpay-control/issues"
-  },
-  "homepage": "https://github.com/Gzbox/react-native-unionpay-control#readme"
+  "rnpm": {
+    "android": {
+    },
+    "ios": {
+      "sharedLibraries": [
+        "CFNetwork.framework",
+        "SystemConfiguration.framework",
+        "libz"
+      ]
+    }
+  }
 }

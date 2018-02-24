@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTBridgeModule.h>
+#import "RCTBridgeModule.h"
 #import "RCTLog.h"
 #import "RCTEventDispatcher.h"
 #import "RCTEventEmitter.h"
