@@ -1,29 +1,25 @@
 {
   "name": "react-native-unionpay-control",
   "version": "0.7.0",
-  "description": "react-native unionpay plugin",
+  "description": "China UnionPay react-native components supporting IOS and Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "dingzhen",
-    "email": "dingzhentalk@dingtalk.com"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gzbox/react-native-unionpay-control.git"
   },
-  "files": [
-    "ios",
-    "android",
-    "index.js"
-  ],
   "keywords": [
-    "unionpay",
-    "react-native-unionpay",
-    "react-native-unionpay-control",
-    "Gzbox"
+    "React-native",
+    "UnionPay",
+    "IOS",
+    "Android"
   ],
-  "dependencies": {},
-  "peerDependencies": {
-    "react-native": ">=0.35"
+  "author": "dingzhen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gzbox/react-native-unionpay-control/issues"
   },
   "homepage": "https://github.com/Gzbox/react-native-unionpay-control#readme"
 }
