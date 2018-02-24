@@ -1,6 +1,6 @@
 {
   "name": "react-native-unionpay-control",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "react-native unionpay plugin",
   "main": "index.js",
   "scripts": {
