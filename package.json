@@ -1,14 +1,14 @@
 {
-  "name": "react-native-unionpay",
-  "version": "1.0.3",
+  "name": "react-native-unionpay-control",
+  "version": "0.6.1",
   "description": "react-native unionpay plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "Alim Kirem",
-    "email": "uyson@qq.com"
+    "name": "dingzhen",
+    "email": "dingzhentalk@dingtalk.com"
   },
   "files": [
     "ios",
@@ -18,7 +18,8 @@
   "keywords": [
     "unionpay",
     "react-native-unionpay",
-    "otkurbiz"
+    "react-native-unionpay-control",
+    "Gzbox"
   ],
   "dependencies": {},
   "peerDependencies": {
